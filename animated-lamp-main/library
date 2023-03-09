@@ -7,9 +7,9 @@ local settings = {
     drag_time = 0.5;
 };
 
-local drawing = loadstring(game:HttpGet("https://raw.githubusercontent.com/corgifan51/animated-lamp/main/backup/drawing"))();
-local tween = loadstring(game:HttpGet("https://raw.githubusercontent.com/corgifan51/animated-lamp/main/backup/tween"))() -- shhhh
-local signal = loadstring(game:HttpGet('https://raw.githubusercontent.com/corgifan51/animated-lamp/main/backup/signal-2'))()
+local drawing = loadstring(game:HttpGet("https://raw.githubusercontent.com/corgifan51/symmetrical-tribble/main/animated-lamp-main/backup/drawing"))();
+local tween = loadstring(game:HttpGet("https://raw.githubusercontent.com/corgifan51/symmetrical-tribble/main/animated-lamp-main/backup/tween"))()
+local signal = loadstring(game:HttpGet('https://raw.githubusercontent.com/corgifan51/symmetrical-tribble/main/animated-lamp-main/backup/signal'))()
 
 -- // UI LIBRARY
 if not isfolder(settings.folder_name) then
@@ -19,10 +19,10 @@ if not isfolder(settings.folder_name) then
 end;
 
 local images = {
-    ['gradient90'] = "https://raw.githubusercontent.com/corgifan51/animated-lamp/main/images/Gradient.png";
-    ['gradient180'] = "https://raw.githubusercontent.com/corgifan51/animated-lamp/main/images/Gradient180.png";
-    ['arrow_down'] = "https://raw.githubusercontent.com/corgifan51/animated-lamp/main/images/tVqy0nL.png";
-    ['arrow_up'] = "https://raw.githubusercontent.com/corgifan51/animated-lamp/main/images/SL9cbQp.png";
+    ['gradient90'] = "https://raw.githubusercontent.com/corgifan51/symmetrical-tribble/main/animated-lamp-main/images/Gradient.png";
+    ['gradient180'] = "https://raw.githubusercontent.com/corgifan51/symmetrical-tribble/main/animated-lamp-main/images/Gradient180.png";
+    ['arrow_down'] = "https://raw.githubusercontent.com/corgifan51/symmetrical-tribble/main/animated-lamp-main/images/tVqy0nL.png";
+    ['arrow_up'] = "https://raw.githubusercontent.com/corgifan51/symmetrical-tribble/main/animated-lamp-main/images/SL9cbQp.png";
 }
 for i,v in next, images do
     if not isfile(settings.folder_name..'/assets/'..i..'.ln') then
