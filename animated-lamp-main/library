@@ -1395,7 +1395,9 @@ function library:init_window(cfg)
         local page_name = cfg.name or cfg.Name or "invalid name";
         -- page configuration
         local left_section_name = cfg.left_name or cfg.Left_Name or "invalid name";
+        local left_section_size = cfg.left_size or cfg.Left_Size or UDim2.new(0.5, -6, 1, 0);
         local right_section_name = cfg.right_name or cfg.Right_Name or "invalid name";
+        local right_section_size = cfg.right_size or cfg.Right_Size or UDim2.new(0.5, -6, 1, 0);
         -- drawings
         local page_button = utility.create("Square", {Color = Color3.fromRGB(20,20,20), Thickness = 1, Filled = true, ZIndex = 6, Parent = bottom_holder}); do
             local inline_outline_page = utility.outline(page_button, Color3.fromRGB(0,0,0), 6);
