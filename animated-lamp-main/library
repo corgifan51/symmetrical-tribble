@@ -1,7 +1,7 @@
 -- settings (so u dont have to scroll)
 local settings = {
     folder_name = "velocity"; -- stupid shit
-    default_accent = Color3.fromRGB(255,255,255); -- also stupid shit
+    default_accent = Color3.fromRGB(29,161,242); -- also stupid shit
     drag_easying_style = "Quad";
     drag_easying_direction = "Out";
     drag_time = 0.5;
